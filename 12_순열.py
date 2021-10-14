@@ -1,15 +1,15 @@
 # 순열
 # nPr 순열 값 구하기 n(n-1)(n-2)...(n-r+1)
 
-# numN = int(input('numN 입력: '))
-# numR = int(input('numR 입력: '))
-# result = 1
-#
-# for n in range(numN, (numN - numR), -1):
-#     print('n : {}'.format(n))
-#     result *= n
-#
-# print('result: {}'.format(result))
+numN = int(input('numN 입력: '))
+numR = int(input('numR 입력: '))
+result = 1
+
+for n in range(numN, (numN - numR), -1):
+    print('n : {}'.format(n))
+    result *= n
+
+print('result: {}'.format(result))
 
 
 # 카드 7장 일렬 나열, 2.4.7 카드 서로 이웃하도록 나열하는 경우의 수
