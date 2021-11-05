@@ -11,6 +11,7 @@ def solution(n, k):
 
     return False
 
+# using rotate
 def solutionB(n, k):
     stack = deque(list(range(1, n + 1)))
 
