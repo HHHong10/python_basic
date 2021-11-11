@@ -4,6 +4,7 @@ def maxProduct(words):
             if s2.find(x) != -1:
                 return False
         return True
+        
     answer = 0
     for i in range(len(words)):
         for j in range(i+1, len(words)):
